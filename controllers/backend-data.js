@@ -444,10 +444,10 @@ const user=[
 
 ]
 if(req.query.id){
-    const newuser =user.filter(value=>value.id===req.query.id)
+    const newuser =user.filter(value=>value.Id===req.query.id)
     res.send(newuser);
 } else if(req.params.category){
-    const newuser =user.filter(value=>value.category===req.params.category)
+    const newuser =user.filter(value=>value.Category===req.params.category)
     res.send(newuser);
 }else{
     res.send(user)
