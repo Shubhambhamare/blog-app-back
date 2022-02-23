@@ -3,8 +3,8 @@ const get=(req,res)=>{
     console.log("*******Request query************", req.params);
 const user=[
     {
-        Id: "1",
-        Category: "bollywood",
+        id: "1",
+        category: "bollywood",
         Name: "Thappad",
         Date: "28 Feb 2020",
         Details:"Type: Drama | Imdb: 7.2/10 | Directed:  Akshy kumar | Stars: Tapsi Pannu ",
@@ -13,8 +13,8 @@ const user=[
     },
 
     {
-        Id: "2",
-        Category: "bollywood",
+        id: "2",
+        category: "bollywood",
         Name: "3 idiots",
         Date: "24 May 2007",
         Details:"Type: Action,Comedy , Drama | Imdb: 7.5/10 | Directed: R H | Stars:Amir khan, kareena Kapoor, Amitabh Bachchan ",
@@ -23,8 +23,8 @@ const user=[
     },
 
     {
-        Id: "3",
-        Category: "bollywood",
+        id: "3",
+        category: "bollywood",
         Name: "baahubali2",
         Date: "28 April 2017",
         Details:"Type: Action ,Adventure ,Drama | Imdb: 9.4/10 | Directed: S.S. Rajamouli | Stars:Prabhas, Rana Daggubati, Anushka Shetty, Amitabh Bachchan ",
@@ -33,8 +33,8 @@ const user=[
     },
 
     {
-        Id: "4",
-        Category: "bollywood",
+        id: "4",
+        category: "bollywood",
         Name: "Chennai Express",
         Date: "10 March 2017",
         Details:"Type: Comedy ,Drama ,Romance | Imdb: 6.2/10 | Directed: Shashank Khaitan | Stars:Sharuk khan, DEEPIKA, Sahil Vaid, ",
@@ -43,8 +43,8 @@ const user=[
     },
 
     {
-        Id: "5",
-        Category: "bollywood",
+        id: "5",
+        category: "bollywood",
         Name: "Bareilly ki barfi",
         Date: "18 August 2017",
         Details:"Type: Comedy | Imdb: 7.2/10 | Directed: Ashwiny Iyer Tiwari | Stars:Ayushmann Khurrana, Kriti Sanon, Rajkummar Rao ",
@@ -53,8 +53,8 @@ const user=[
     },
 
     {
-        Id: "6",
-        Category: "bollywood",
+        id: "6",
+        category: "bollywood",
         Name: "Bhool Bhulaiyaa",
         Date: "12 October 2007",
         Details:"Type: Comedy ,Horror ,Mystery | Imdb: 7.3/10 | Directed: Priyadarshan | Stars:Akshay Kumar, Vidya Balan, Shiney Ahuja ",
@@ -63,8 +63,8 @@ const user=[
     },
 
     {
-        Id: "7",
-        Category: "bollywood",
+        id: "7",
+        category: "bollywood",
         Name: "brothers",
         Date: "15 August 2015",
         Details:"Type: Action, Drama, Sport | Imdb: 6.5/10 | Directed: Karan Malhotra | Stars:Akshay Kumar, Sidharth Malhotra, Jackie Shroff ",
@@ -74,8 +74,8 @@ const user=[
 
 
     {
-        Id: "8",
-        Category: "bollywood",
+        id: "8",
+        category: "bollywood",
         Name: "Commando",
         Date: " 3 March 2017",
         Details:"Type: Action ,Crime ,Drama | Imdb: 8.4/10 | Directed: Deven Bhojan | Stars: Vidyut Jamwal, Adah Sharma, Esha Gupta. ",
@@ -85,8 +85,8 @@ const user=[
 
 
     {
-        Id: "9",
-        Category: "hollyWood",
+        id: "9",
+        category: "hollyWood",
         Name: "Iron Man (2008)",
         Date: "  18 November 2008",
         Details:"Type: Adventure ,Comedy ,Fantasy | Imdb: 7.6/10 | Directed: Bruso Bros | Stars: Robert D JUNIOR,Finn Wolfhard ",
@@ -95,8 +95,8 @@ const user=[
     },
 
     {
-        Id: "10",
-        Category: "hollyWood",
+        id: "10",
+        category: "hollyWood",
         Name: "Spider man",
         Date: "  16 Jan 2022",
         Img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrdPsGJEBxBev7gKo_EMp0Pgk7Q7su_xTUxf3vo8dE9S_CiG2Z",
@@ -105,8 +105,8 @@ const user=[
     },
 
     {
-        Id: "11",
-        Category: "hollyWood",
+        id: "11",
+        category: "hollyWood",
         Name: "Batman VS superman ",
         Date: " 17 Nov 2026 ",
         Img: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTyyCYy3OZeCzFfY71jjpeavzbKjXsXjHiUiyOlvPYht81UR9lp",
@@ -115,8 +115,8 @@ const user=[
     },
 
     {
-        Id: "12",
-        Category: "hollyWood",
+        id: "12",
+        category: "hollyWood",
         Name: "Lamb ",
         Date: "10 December 2021",
         Img: "https://bgr.com/wp-content/uploads/2021/10/Lamb-A24-Screening-Room.jpg?quality=82&strip=all&w=1440&h=810&crop=1",
@@ -125,8 +125,8 @@ const user=[
     },
 
     {
-        Id: "13",
-        Category: "hollyWood",
+        id: "13",
+        category: "hollyWood",
         Name: "Los Angeles",
         Date: "04 Nov 2021",
         Img: "https://imagetot.com/images/2021/11/25/6bd71df918d57382fdd53a55d6dfbcb1.jpg",
@@ -136,8 +136,8 @@ const user=[
 
 
     {
-        Id: "14",
-        Category: "hollyWood",
+        id: "14",
+        category: "hollyWood",
         Name: "The accursed ",
         Date: "12 November 2021",
         Img: "https://s2.dmcdn.net/v/TLdGn1XT4kc682CK8/x1080",
@@ -147,8 +147,8 @@ const user=[
 
 
     {
-        Id: "15",
-        Category: "hollyWood",
+        id: "15",
+        category: "hollyWood",
         Name: "Man of Steel ",
         Date: "14 June 2013",
         Img: "https://static01.nyt.com/images/2013/05/26/arts/26STEEL_SPAN/26STEEL-superJumbo.jpg",
@@ -157,8 +157,8 @@ const user=[
     },
 
     {
-        Id: "16",
-        Category: "technology",
+        id: "16",
+        category: "technology",
         Name: " Artificial Intelligence (AI) and Machine Learning ",
         Date: " 1956 ",
         Img: "https://images.idgesg.net/images/article/2017/05/artificial_intelligence_machine_learning_network_thinkstock_671750598-100724432-large.jpg?auto=webp&quality=85,70",
@@ -167,8 +167,8 @@ const user=[
     },
 
     {
-        Id: "17",
-        Category: "technology",
+        id: "17",
+        category: "technology",
         Name: " Big Data ",
         Date: " early 2000s ",
         Img: "https://www.analyticssteps.com/backend/media/thumbnail/259236/7729779_1614949022_big%20data%20applications.png",
@@ -177,8 +177,8 @@ const user=[
     },
 
     {
-        Id: "18",
-        Category: "technology",
+        id: "18",
+        category: "technology",
         Name: "Automation ",
         Date: " in 1972 ",
         Img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTndkfY2ex3QzMYZ6pqjaN4wQUd2Q37z4E2Aw&usqp=CAU",
@@ -187,8 +187,8 @@ const user=[
     },
 
     {
-        Id: "19",
-        Category: "technology",
+        id: "19",
+        category: "technology",
         Name: " Python",
         Date: " February 20 1991 as Python 0.9.0 ",
         Img: "https://cdn.hackernoon.com/images/q141s3xfs.jpg",
@@ -196,8 +196,8 @@ const user=[
         About: "Python is a high-level object-oriented programming language that was created by Guido van Rossum. It is also called general-purpose programming language as it is used in almost every domain we can think of as mentioned below: Web Development. Software Development. Guido van Rossum When he began implementing Python, Guido van Rossum was also reading the published scripts from “Monty Python's Flying Circus”, a BBC comedy series from the 1970s. Van Rossum thought he needed a name that was short, unique, and slightly mysterious, so he decided to call the language Python. It was initially designed by Guido van Rossum in 1991 and developed by Python Software Foundation. It was mainly developed for emphasis on code readability, and its syntax allows programmers to express concepts in fewer lines of code. In the late 1980s, history was about to be written. As the backbone of many websites, HTML is considered to be the simplest programming language for those who are just getting started. HTML was also named the most intuitive language by those surveyed. ... Python was the second-easiest programming language to learn, followed by JavaScript."
     },
     {
-        Id: "20",
-        Category: "technology",
+        id: "20",
+        category: "technology",
         Name: "Android ",
         Date: " September 23 2008 ",
         Img: "https://www.seasiainfotech.com/blog/wp-content/uploads/2018/12/Android-Application-Development-Process-The-Perfect-Guide.png",
@@ -205,8 +205,8 @@ const user=[
         About: " Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance and commercially sponsored by Google. It was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008. It is free and open-source software; its source code is known as Android Open Source Project (AOSP), which is primarily licensed under the Apache License. However most Android devices ship with additional proprietary software pre-installed,[14] most notably Google Mobile Services (GMS)[15] which includes core apps such as Google Chrome, the digital distribution platform Google Play, and associated Google Play Services development platform."
     },
     {
-        Id: "21",
-        Category: "technology",
+        id: "21",
+        category: "technology",
         Name: "Ethical hacking",
         Date: " In the 1980s and 1990s ",
         Img: "https://www.astatraining.com/wp-content/uploads/2020/03/what-is-an-ethical-hacker.jpg",
@@ -214,8 +214,8 @@ const user=[
         About: "Ethical hacking is a process of detecting vulnerabilities in an application, system, or organization's infrastructure that an attacker can use to exploit an individual or organization. The industry will witness a 350% growth by 2021. In India, the number is expected to rise by 77,000 in the next five years. Technical hackers can look for top companies like Dell, Google, Wipro, Reliance, Infosys, and IBM to land the highest-paid ethical hacking jobs in India. Hacker Jonathan James from Florida hacked NASA computers in 1999 when he was 15 years old, resulting in a three week system shutdown and an estimated recovery cost of $41,000. He also invaded computers of a Defense Department agency and intercepted 3,300 emails with 19 employee passwords."
     },
     {
-        Id: "22",
-        Category: "technology",
+        id: "22",
+        category: "technology",
         Name: "Cloud computing technology",
         Date: " August 9, 2006 ",
         Img: "https://images.ctfassets.net/3prze68gbwl1/3sEK5r6suPvvoX2TJzTrNf/c5c91e0ad838c8dfc79d19e5cf5d42fc/Blog_CloudComputingTechnology.png",
@@ -223,8 +223,8 @@ const user=[
         About: "Cloud computing technology gives users access to storage, files, software, and servers through their internet-connected devices: computers, smartphones, tablets, and wearables. Cloud computing providers store and process data in a location that's separate from end users. Part of the debate is who should get credit for inventing the idea. The notion of network-based computing dates to the 1960s, but many believe the first use of “cloud computing” in its modern context occurred on August 9, 2006, when then Google CEO Eric Schmidt introduced the term to an industry conference."
     },
     {
-        Id: "23",
-        Category: "fitness",
+        id: "23",
+        category: "fitness",
         Name: " Chest Exercise ",
         Date: " August 9, 2021 ",
         Img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCWpxAv1PDcJIeQtBT_uZB29FPkyDKx5H7CdknxJad1WKysQR7ZsrYki3nZTPxJwBB2es&usqp=CAU",
@@ -235,8 +235,8 @@ const user=[
     },
 
     {
-        Id: "24",
-        Category: "fitness",
+        id: "24",
+        category: "fitness",
         Date: " August 9, 2021 ",
         Name: " Back Press Exercise",
         Img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4U9nOOx_SA4oYjLJWs4EiVZOFpV_BPKJ0hJXg2_m7dSRvS4PZqs0i2InhnlDAQHVwzxc&usqp=CAU",
@@ -245,8 +245,8 @@ const user=[
 
 
     }, {
-        Id: "25",
-        Category: "fitness",
+        id: "25",
+        category: "fitness",
         Date: " August 9, 2021 ",
         Name: "Leg Exercise",
         Img: "https://www.cnet.com/a/img/P8tVNQuKFEIQ4EvclLRVQLOaihI=/1200x675/2020/06/23/aafc1ace-f176-411a-9695-7683aacd35c9/gettyimages-1004449544.jpg",
@@ -258,8 +258,8 @@ const user=[
 
 
     {
-        Id: "26",
-        Category: "fitness",
+        id: "26",
+        category: "fitness",
         Date: " August 9, 2021 ",
         Name: "Triceps Exercise",
         Img: "https://www.bodybuilding.com/images/2021/april/triceps-workout-for-beginners-header-830x467.jpg",
@@ -271,8 +271,8 @@ const user=[
 
 
     {
-        Id: "27",
-        Category: "fitness",
+        id: "27",
+        category: "fitness",
         Date: " August 9, 2021 ",
         Name: "ABS Exercise",
         Img: "https://cdn1.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/2017/10/plank.jpg?itok=KCQrGn4s",
@@ -284,8 +284,8 @@ const user=[
 
 
     {
-        Id: "28",
-        Category: "fitness",
+        id: "28",
+        category: "fitness",
         Date: " August 9, 2021 ",
         Name: "ForeArm Exercise",
         Img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU3RwM6VV_-zagIep_Oh576J1DOb0M0EyEjw&usqp=CAU",
@@ -295,8 +295,8 @@ const user=[
     },
 
     {
-        Id: "29",
-        Category: "fitness",
+        id: "29",
+        category: "fitness",
         Date: " August 9, 2021 ",
         Name: "Shoulder Exercise",
         Img: "https://hips.hearstapps.com/vidthumb/brightcove/578940c0e694aa370d8835b3/thumb_1468612802.png?crop=1xw%3A1xh%3Bcenter%2Ctop&resize=480%3A270",
@@ -307,8 +307,8 @@ const user=[
     },
 
     {
-        Id: "30",
-        Category: "fitness",
+        id: "30",
+        category: "fitness",
         Date: " August 9, 2021 ",
         Name: "Biceps Exercise",
         Img: "https://cdn1.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/2018/08/modified-v-sit.jpg?itok=Py5Nt9am",
@@ -319,8 +319,8 @@ const user=[
     },
 
     {
-        Id: "31",
-        Category: "food",
+        id: "31",
+        category: "food",
         Date: " August 9, 2021 ",
         Name: "Pizza",
         Img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvdAaFieARJBSTyBdcg4jH_tCXE2xbYjxNNg&usqp=CAU",
@@ -331,8 +331,8 @@ const user=[
     },
 
     {
-        Id: "32",
-        Category: "food",
+        id: "32",
+        category: "food",
         Date: " August 9, 2021 ",
         Name: "Coffee",
         Img: "https://s3.envato.com/files/271771964/drink-71.jpg",
@@ -341,8 +341,8 @@ const user=[
     },
 
     {
-        Id: "33",
-        Category: "food",
+        id: "33",
+        category: "food",
         Date: " August 9, 2021 ",
         Name: "Barfi",
         Img: "https://sukhis.com/app/uploads/2017/06/IndianMithai.jpg",
@@ -354,8 +354,8 @@ const user=[
 
 
     {
-        Id: "34",
-        Category: "food",
+        id: "34",
+        category: "food",
         Date: " August 9, 2021 ",
         Name: "Paneer Makhani",
         Img: "https://www.indianhealthyrecipes.com/wp-content/uploads/2014/11/paneer-butter-masala-recipe-2.jpg",
@@ -366,8 +366,8 @@ const user=[
     },
 
     {
-        Id: "35",
-        Category: "food",
+        id: "35",
+        category: "food",
         Date: " August 9, 2021 ",
         Name: "Chicken Karahi",
         Img: "https://myfoodstory.com/wp-content/uploads/2021/09/Kadai-Chicken-Karahi-Chicken-3-1067x617.jpg",
@@ -379,8 +379,8 @@ const user=[
 
 
     {
-        Id: "36",
-        Category: "food",
+        id: "36",
+        category: "food",
         Date: " August 9, 2021 ",
         Name: "Rasgulla",
         Img: "https://smedia2.intoday.in/indiatoday/images/stories/2017August/dish16_081417053047.jpg",
@@ -391,8 +391,8 @@ const user=[
     },
 
     {
-        Id: "37",
-        Category: "food",
+        id: "37",
+        category: "food",
         Date: " August 9, 2021 ",
         Name: "Biryani",
         Img: "https://i.ytimg.com/vi/BCKMeHuRX0I/maxresdefault.jpg",
@@ -403,8 +403,8 @@ const user=[
     },
 
     {
-        Id: "38",
-        Category: "food",
+        id: "38",
+        category: "food",
         Date: " August 9, 2021 ",
         Name: "Pav bhaji",
         Img: "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Instant-Pot-Mumbai-Pav-Bhaji-Recipe.jpg",
@@ -416,8 +416,8 @@ const user=[
 
 
     {
-        Id: "39",
-        Category: "fitness",
+        id: "39",
+        category: "fitness",
         Date: " August 9, 2021 ",
         Name: "Biceps Exercise",
         Img: "https://pbs.twimg.com/media/Dn_sBL_WkAAfi7K.jpg",
@@ -429,8 +429,8 @@ const user=[
 
 
     {
-        Id: "40",
-        Category: "food",
+        id: "40",
+        category: "food",
         Date: " August 9, 2021 ",
         Name: "Chole Bhature",
         Img: "https://www.mygingergarlickitchen.com/wp-content/rich-markup-images/4x3/4x3-punjabi-chole-bhature-chana-bhatura.jpg",
@@ -444,7 +444,7 @@ const user=[
 
 ]
 if(req.query.id){
-    const newuser =user.filter(value=>value.Id===req.query.id)
+    const newuser =user.filter(value=>value.id===req.query.id)
     res.send(newuser);
 } else if(req.params.category){
     const newuser =user.filter(value=>value.Category===req.params.category)
